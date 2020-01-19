@@ -1,0 +1,17 @@
+/* Tablet Views*******************************************************************************/
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main picture {
+        display: block;
+    }
+
+    main section picture img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
+    }
+}

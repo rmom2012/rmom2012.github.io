@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans:700&display=swap');
+
+
+
+/*phone or baseline views****************************************************************/
+
+body {
+    background-color: #242582;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header,
+footer {
+
+    text-align: center;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    
+
+}
+
+main {
+    color: #fff;
+    max-width: 767px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;  
+    text-align: center;  
+
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+    line-height: 1.4em;
+
+}
+
+a:active {
+    color: #242582;
+    text-decoration: none;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main section {
+    margin: 0.5rem;
+    padding: 0 1rem;
+    background-color: #f64c72;
+   
+}
+
+
+.mainimg {
+    box-shadow: 0 0 10px #333;
+   
+}
+
+p{
+    font-family: 'Fjalla One', sans-serif; 
+    line-height: 1.4em;
+    text-align: center;
+}
