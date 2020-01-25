@@ -58,8 +58,8 @@ footer {
 }
 
 footer a:visted {
-    color: blanchedalmond;
-    text-decoration-line: underline;
+    color: #fff;
+    text-decoration: none;
 
 }
 
