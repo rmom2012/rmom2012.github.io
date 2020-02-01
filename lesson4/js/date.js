@@ -7,7 +7,7 @@ try {
     };
 document.getElementById(
     "currentDate"
-).textContent = new Date().toLocaleDateString("en-GB", options);
+).textContent = new Date().toLocaleDateString("en-G", options);
 } catch (e) {
     alert("Error with code or your browser does not support Locale")
 }
