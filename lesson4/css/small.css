@@ -1,0 +1,121 @@
+body {
+    background-color: #f1f1ef;
+    background-image: url('/lesson4/images/simplyweatherbkgrnd.png');
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #f1f1ef;
+    background-image: url('/lesson4/images/simplyweatherbkgrnd.png');
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #34421f;
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    color: #c19434;
+    margin-left: 20px;
+    font-size: .8rem;
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #34421f;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    color: #f1f1ef;
+    font-size: x-large;
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid #879a63;
+}
+
+.navigation a:hover {
+    color: #c19434;
+    font-weight: 700;
+}
+
+nav ul li .active{
+    color: #879a63;
+    text-decoration: overline;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #34421f;
+    text-align: center;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 2px outset #879a63;
+    padding: 15px;
+    background-color: #f1f1ef;
+    color: #4a4a4a;
+    font-family: 'Lora', serif;
+    font-weight: 800;
+}
+
+
+footer {
+    padding: 10px;
+    color: #f1f1ef;
+    background-color: #34421f;
+    font-family: 'Lora', serif;
+    font-size: small;
+    text-align: center;
+}
