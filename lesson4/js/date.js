@@ -3,11 +3,11 @@ try {
         weekday: "long",
         day: "numeric",
         month: "long",
-        year: "numeric",
+        year: "numeric"
     };
 document.getElementById(
     "currentDate"
-).textContent = new Date().toLocaleDateString("en-G", options);
+).textContent = new Date().toLocaleDateString("en-US", options);
 } catch (e) {
     alert("Error with code or your browser does not support Locale")
 }
