@@ -1,0 +1,228 @@
+body {
+    background-color: #f1f1ef;
+    background-image: url('/lesson5/images/simplyweatherbkgrnd.png');
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('/lesson4/images/simplyweatherbkgrnd.png');
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #34421f;
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    color: #c19434;
+    margin-left: 20px;
+    font-size: .8rem;
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #34421f;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    color: #f1f1ef;
+    font-size: large;
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid #879a63;
+}
+
+.navigation a:hover {
+    color: #c19434;
+    font-weight: 700;
+    transition: 0.7s;
+    text-decoration: overline;
+}
+
+nav ul li .active{
+    color: #879a63;
+    text-decoration: overline;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #34421f;
+    text-align: center;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 2px outset #879a63;
+    padding: 15px;
+    background-color: #f1f1ef;
+    color: #4a4a4a;
+    font-family: 'Lora', serif;
+    font-weight: 800;
+}
+
+
+footer {
+    padding: 10px;
+    color: #f1f1ef;
+    background-color: #34421f;
+    font-family: 'Lora', serif;
+    font-size: small;
+    text-align: center;
+}
+
+/*styles for weather summary and hero image*/
+
+.heroImg {
+    margin: 10 px auto; 
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero {
+    margin: 10 px auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.wsummary {
+    position: absolute;
+    top: 1.5rem;
+    left: 20px;
+    font-family: 'Lora', serif;
+    color: #4a4a4a;
+    background-color: #f1f1ef;
+    opacity: 0.80;
+    border: 5px #4a4a4a;
+    padding: .5rem;
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.59);
+}
+
+/*styles for banner*/
+
+#saturday {
+    background: linear-gradient(to right, #c19434 0%, #c19434 100%);
+    color: #f1f1ef;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+  }
+/*5 day forecast*/
+
+.fiveDay{
+    display: none;
+}
+
+.flex {
+    display: none;
+}
+
+
+/*styles for article*/
+
+.article {
+    display: block;
+   
+}
+
+.articleImg {
+    align-content: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-shadow: 0 2px 15px gray;}
+    
+
+.articleText {
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #4a4a4a;
+    padding: 10px;
+    background-color: #f1f1ef;
+    border: 2 px #34421f;
+}
+
+/*styles for contact information*/
+
+
+  
+  .contact img {
+    width: 30px;
+    margin-bottom: -3px;
+    margin-right: 10px;
+    font-family: 'Lora', serif;
+    color: #34421f;
+  }
+  
+  #map {
+    display: none;
+  }
+  
+  .social img {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contact  {
+    margin-left: 2rem;
+    padding: 10px;
+  }
+
+  .heroP {
+      width: 100%;
+      margin-bottom: 50px;
+  }
