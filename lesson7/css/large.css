@@ -18,5 +18,16 @@
 		font-size: x-large;
 	}
 
+	/*styles for gallery page*/
+
+	.wGallery {
+		grid-template-columns: repeat(3,1fr);
+	  }
+	  
+	  figure:hover {
+		box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+		padding: 0px;
+	  }
+
 	
 }

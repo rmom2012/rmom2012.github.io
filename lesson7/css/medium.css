@@ -113,6 +113,12 @@
         margin: 0px;
         grid-area: 1 / 2 / 3 / 3;
       }
+
+       /*styles for gallery page*/
+
+       .wGallery {
+        grid-template-columns: repeat(2,1fr);
+      }
    
 
 }

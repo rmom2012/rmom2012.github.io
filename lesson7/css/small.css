@@ -43,7 +43,7 @@ header img {
 
 nav {
     margin: 0 auto;
-    background-color: #34421f;
+    background-color: #879a63;
 }
 
 .navigation {
@@ -66,18 +66,18 @@ nav {
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
-    border-top: 1px solid #879a63;
+    border-top: 1px solid #f1f1ef;
 }
 
 .navigation a:hover {
-    color: #c19434;
+    color: #34421f;
     font-weight: 700;
     transition: 0.7s;
     text-decoration: overline;
 }
 
 nav ul li .active{
-    color: #c2cb93;
+    color: #f1f1ef;
     text-decoration: overline;
 }
 
@@ -86,7 +86,7 @@ nav ul li .active{
 }
 
 
-main,
+
 footer {
     max-width: 800px;
     margin: 0 auto;
@@ -95,7 +95,7 @@ footer {
 h1,
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     color: #34421f;
     text-align: center;
 }
@@ -115,7 +115,7 @@ h2 {
 footer {
     padding: 10px;
     color: #f1f1ef;
-    background-color: #34421f;
+    background-color: #879a63;
     font-family: 'Lora', serif;
     font-size: small;
     text-align: center;
@@ -226,3 +226,32 @@ footer {
       width: 100%;
       margin-bottom: 50px;
   }
+  /*styles for gallery page*/
+
+
+  .wGallery{
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
+  figure {
+    max-width: 100%;
+  }
+  
+  figure img {
+    grid-column: 1;
+    max-width: 100%;
+  }
+  
+  figcaption {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 3px;
+    font-size: 1rem;
+    color: #34421f;
+  }
+  
+  
