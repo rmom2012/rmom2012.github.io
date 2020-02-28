@@ -1,0 +1,60 @@
+table,
+th,
+tr,
+td,
+tfoot {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    border: .3px solid gray;
+    border-collapse: collapse;
+
+}
+
+table {
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px #777777;
+}
+
+
+thead {
+    color: black;
+    font-family: Ubuntu;
+    font-size: x-large;
+    background-color: #7fb9c2;
+    text-align: center;
+}
+
+thead tr th {
+    background-color: #7fb9c2;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    border: .3px solid gray;
+}
+
+th {
+    color: white;
+    background-color: #628ca6;
+    font-size: larger;
+    font-weight: bold;
+}
+
+tbody tr {
+    background-color: #e7ffed;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+tfoot tr td {
+    background-color: #7fb9c2;
+    font-size: .70rem;
+}
+
+.salesGoal {
+    background-color: #628ca6;
+    color: white;
+}
