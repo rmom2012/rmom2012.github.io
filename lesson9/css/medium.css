@@ -1,0 +1,216 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 32.5em) {
+
+    .navigation {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    header img {
+        width: 80%;
+    }
+
+    .headings h1 {
+        font-size: 2rem;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+
+
+
+    /*styles for five-day forecast*/
+
+    .fiveDay {
+        display: block;
+        font-size: 1.1em;
+        color: #4a4a4a;
+        font-family: 'Lora', serif;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+        background-color: #879a63;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .flex div:last-child {
+        border-right: 1px solid #333;
+    }
+
+    .day {
+        display: block;
+        font-family: 'Lora', serif;
+        color: #4a4a4a;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 1px solid #333;
+        background-color: #f1f1ef;
+    }
+
+    .flex div img,
+    table img {
+        width: 40%;
+        height: auto;
+        border-radius: 100px;
+        padding: 5px;
+    }
+
+    .temp {
+        display: block;
+        font-family: 'Lora', serif;
+        color: #f1f1ef;
+        font-weight: 700;
+        font-size: 15px;
+        padding: 0 5px 5px;
+    }
+
+    /*styles for article*/
+
+    .articleImg {
+        float: right;
+        width: 50%;
+        height: auto;
+        margin: 40px;
+    }
+
+    /*styles for contact information*/
+
+
+    div.contact {
+        width: 80%;
+        margin: auto;
+    }
+    #map {
+      display: block;
+      width: 90%;
+      margin: auto;
+      grid-area: 1 / 2 / 3 / 3;
+      box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+
+    }
+    .contact h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #f1f1ef;
+        font-family:'Lora', serif;
+    }
+    .contactinfo img {
+      width: 25px;
+      margin-bottom: -20px;
+    }
+    .social {
+      text-align: center;
+    }
+    .social img {
+        width: 10%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  
+    footer p {
+      color: #f1f1ef;
+      text-align: center;
+      font-family:'Lora', serif;
+      padding: 20px;
+  }
+
+
+    /*styles for gallery page*/
+
+    .wGallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*styles for home page*/
+
+    .homePage img {
+        position: absolute;
+        width: 40%;
+        margin-top: -45px;
+    }
+
+    .homePage h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #555;
+        font-size: 11vw;
+        padding-left: 10%;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .homePage h2 {
+        font-family: 'Lora', serif;
+        color: #4a4a4a;
+        font-size: 3vw;
+        padding-left: 10%;
+        margin: -20px 0px 0px 0px;
+    }
+    .visit {
+        text-align: left;
+        margin: 50px 0px 0px 0px; 
+        font-size: 3rem;
+    }
+    .towns {
+        padding-bottom: 0px;
+    }
+    .towns section {
+        margin-bottom: 40px;
+        text-align: right;
+    }
+    .towns section img {
+        float: left;
+        width: 60%;
+    }
+    .towns section h1 {
+        margin: 10px;
+        color: rgb(53, 53, 53);
+        font-size: 5vw;
+    }
+    .towns section h3, .towns section h4 {
+        margin-top: 60px;
+        margin-right: 15px;
+        font-size: 3vw;
+        line-height: .5em;
+    }
+    .towns section {
+        overflow: auto;
+        padding: 0px;
+    }
+    .towns section:nth-child(2) img {
+        float: right;
+        padding: 0px;
+    }
+    .towns section:nth-child(2) {
+        text-align: left;
+    }
+
+
+
+
+}
