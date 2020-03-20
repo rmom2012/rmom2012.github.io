@@ -7,9 +7,3 @@ var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
 
 document.getElementById("date").textContent = day[date.getDay()] + ", " + date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear();
 
-if (date.getDay() == 5) {
-    document.getElementById("saturday").style.display = "block";
-}
-else {
-    document.getElementById("saturday").style.display = "none";
-}

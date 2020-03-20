@@ -31,23 +31,23 @@
     <nav>
         <ul class="navigation responsive">
             <li><a class="ham" href="#">&#9776; Menu</a></li>
-            <li><a href="home.html"> Home</a></li>
-            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="/lesson9/simplyWeather.html"> Home</a></li>
+            <li><a href="/lesson10/preston-10.html">Preston</a></li>
             <li><a href="sodasprings.html">Soda Springs</a></li>
             <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="stormcenter.html" class="active">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="/lesson8/stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
 
 
-    <main>
+    <main class="stormCenter">
 
-        <h2>Storm Center</h2>
+        <h2>Storm Center~Report A Storm</h2>
 
         <form method="get" action="thanks.html" id="form">
 
-            <h3>Report A Storm</h3>
+            <div class="form">
 
             <fieldset>
                 <legend>Personal Information</legend>
@@ -55,7 +55,7 @@
                         required></label>
                 <label class="top"> Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="top"> Phone* <input type="tel" name="phone" required></label>
-                <label class="top"> Zip Code*<input type="number" name="zip" required></label>
+                <label class="top"> Zip Code*<input type="text" name="zip" required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
@@ -72,11 +72,13 @@
                     <option value="Tornado"></option>
                 </datalist>
 
-                <label class="top">Storm Severity</label>
+
+            <fieldset>
+                <legend>Storm Severity</legend>
+                <label class="label-left" for="rating">Rating (1 to 10):
                 <input type="range" id="rating" value="1" min="1" max="10" step="1" list="tickmarks"
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue">1</span>
-
 
                 <datalist id="tickmarks">
                     <option value="0">
@@ -91,38 +93,49 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
+                </fieldset>
+
                 <label class="top">Storm region<input id="region" list="regionList" select name="stormRegion"
-                        placeholder="identify storm region"></label>
+                        placeholder="Identify storm region"></label>
                 <datalist id="regionList">
                     <option value="">Select Region &#9622;</option>
                     <option value="Preston">Preston</option>
                     <option value="Soda Springs">Soda Springs</option>
                     <option value="Fish Haven">Fish Haven</option>
                 </datalist>
-
-
-
-            </fieldset>
+           
 
             <fieldset>
-                <legend class="help">Do you need emergency services?</legend>
-                <label class="sbs"><input type="radio" name="user" value="yes">Yes</label>
-                <label class="sbs"><input type="radio" name="user" value="maybe">Maybe</label>
-                <label class="sbs"><input type="radio" name="user" value="no">No</label>
-
+                <legend>User In-Danger</legend>
+                <div><label class="radio storm" for="yes">
+                        <input type="radio" id="yes" name="danger-level" value="yes" checked>
+                        Yes</label>
+                </div>
+                <div><label class="radio storm" for="maybe">
+                        <input type="radio" id="maybe" name="danger-level" value="maybe">
+                        Maybe</label>
+                </div>
+                <div><label class="radio storm" for="no">
+                        <input type="radio" id="no" name="danger-level" value="no">
+                        No</label>
+                </div>
             </fieldset>
 
             <fieldset>
                 <legend>Additional Information</legend>
 
-                <label class="top"><textarea rows="10" cols="30"
+                <label class="top"><textarea rows="10" cols="50"
                         placeholder="Please enter your comments here."></textarea></label>
 
             </fieldset>
 
-            <input type="submit" value="Report Severe Weather" class="submitBtn">
+            </label>
+
+            <input type="submit" name="storm report" value="Report Severe Weather" class="submitBtn">
 
         </form>
+
+    </div>
 
 
 

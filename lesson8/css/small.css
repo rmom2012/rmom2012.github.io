@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    background-image: url('/lesson4/images/simplyweatherbkgrnd.png');
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -41,9 +40,15 @@ header img {
     text-align: center;
 }
 
+main
+ {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 nav {
     margin: 0 auto;
-    background-color: #879a63;
+    background-color: #34421f;
 }
 
 .navigation {
@@ -70,10 +75,10 @@ nav {
 }
 
 .navigation a:hover {
-    color: #34421f;
+    color: #c19434;
     font-weight: 700;
     transition: 0.7s;
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 nav ul li .active{
@@ -86,11 +91,6 @@ nav ul li .active{
 }
 
 
-
-footer {
-    max-width: 800px;
-    margin: 0 auto;
-}
 
 h1,
 h2 {
@@ -116,7 +116,7 @@ h2 {
 footer {
     padding: 10px;
     color: #f1f1ef;
-    background-color: #879a63;
+    background-color: #34421f;
     font-family: 'Lora', serif;
     font-size: small;
     text-align: center;
@@ -257,43 +257,42 @@ footer {
 
   /*----------- Form --------------*/
 
-  main {
-    padding: 0 8%;
-    min-height: 20rem;
-}
-
-h3 {
-    text-align: left;
-    color: #c19434;
-    font-family:'Montserrat', sans-serif; 
-    font-weight: 900;
-    font-size: x-large;
-}
+  
+.form {
+    background-color: #f1f1ef;
+    margin: 1.5rem  auto;
+    padding: .6em;
+    box-shadow: 5px 10px 18px #0a0909;
+    border-radius: 5px 5px 5px 5px;
+    color: #34421f;
+    align-content: center;
+    max-width: 500px;
+  }
 
 form fieldset {
-    background-color: #f1f1ef;
     margin: 2rem 0;
-    border: 2px dashed #c19434;
-    border-radius: 10px;
-    padding: 2rem 2%;
+    border: solid 2px #879a63;
+    border-radius: 20px;
+    padding: 1rem 2%;
 }
 
 form legend {
     font-family:'Montserrat', sans-serif;
     font-size: large; 
     font-weight: bolder;
-    color: #c19434;
+    color: #34421f;
     margin: 0 1rem;
-    padding: 0 .5rem;
+    padding: 0 1rem;
 }
 
 
 form label.top, form div {
     display: block;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     font-family: 'Lora', serif;
     color: #34421f;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
 }
 
@@ -306,19 +305,13 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 16rem;
+    max-width: 20rem;
     background-color: rgba (0,0,0,0.1);
 }
 
 
-form label .sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
-
 input[type=radio] {
-    margin: 0px 5px 10px 0px;
+    margin: 0px 5px 5px 0px;
   }
 
 form input.submitBtn {
@@ -327,8 +320,9 @@ form input.submitBtn {
     background-color: #34421f;
     color: white;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    box-shadow: 5px 10px 18px #0a0909;
+    padding: 1.5rem 1.5rem;
+    margin: 0 0 2rem 8%;
     width: 96%;
     max-width: 20rem;
 }
@@ -340,6 +334,7 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
  .help {
      color: #c19434;
      font-weight: bolder;

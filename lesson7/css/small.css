@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    background-image: url('/lesson4/images/simplyweatherbkgrnd.png');
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -39,11 +38,19 @@ header img {
     margin-left: 20px;
     font-size: .8rem;
     text-align: center;
+
 }
+
+main
+ {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 
 nav {
     margin: 0 auto;
-    background-color: #879a63;
+    background-color: #34421f;
 }
 
 .navigation {
@@ -70,10 +77,9 @@ nav {
 }
 
 .navigation a:hover {
-    color: #34421f;
+    color: #c19434;
     font-weight: 700;
     transition: 0.7s;
-    text-decoration: overline;
 }
 
 nav ul li .active{
@@ -85,12 +91,6 @@ nav ul li .active{
     display: block;
 }
 
-
-
-footer {
-    max-width: 800px;
-    margin: 0 auto;
-}
 
 h1,
 h2 {
@@ -113,9 +113,11 @@ h2 {
 
 
 footer {
+    max-width: 100%;
+    margin: 0 auto;
     padding: 10px;
     color: #f1f1ef;
-    background-color: #879a63;
+    background-color: #34421f;
     font-family: 'Lora', serif;
     font-size: small;
     text-align: center;
@@ -244,6 +246,10 @@ footer {
   figure img {
     grid-column: 1;
     max-width: 100%;
+  }
+
+  figure img:hover {
+    box-shadow: 5px 10px 10px gray;
   }
   
   figcaption {

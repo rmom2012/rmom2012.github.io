@@ -43,7 +43,7 @@ header img {
 
 nav {
     margin: 0 auto;
-    background-color: #879a63;
+    background-color: #34421f;
 }
 
 .navigation {
@@ -70,10 +70,10 @@ nav {
 }
 
 .navigation a:hover {
-    color: #34421f;
+    color: #c19434;
     font-weight: 700;
     transition: 0.7s;
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 nav ul li .active {
@@ -454,7 +454,7 @@ form label.top input:required:valid {
 
 .towns section h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #34421f;
+    color: #879a63;
     margin: 20px 0px 10px 10px;
     font-size: 2rem;
 }
@@ -474,7 +474,6 @@ form label.top input:required:valid {
 .towns section h3 {
     font-family: 'Lora', serif;
     color: #4a4a4a;
-    font-size: 1.5rem;
     font-style: italic;
     text-align: center;
     padding: 10px;
@@ -484,6 +483,6 @@ form label.top input:required:valid {
 .towns section h4 {
     font-family: 'Lora', serif;
     color: #555;
-    margin: 0px 0px 0px 20px;
-    font-size: 1.2rem;
+    margin: 0px 0px 5px 20px;
+    font-size: 1rem;
 }
