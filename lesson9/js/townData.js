@@ -18,15 +18,15 @@ fetch(requestURL)
                 let rain = document.createElement('h4');
                 let photo = document.createElement('img');
 
+                photo.setAttribute('src', "images/" + towns[i].photo);
+                photo.setAttribute('alt', towns.name);
+                townpage.appendChild(photo);
+
                 townname.textContent = towns[i].name;
                 townpage.appendChild(townname);
 
                 motto.textContent = towns[i].motto;
                 townpage.appendChild(motto);
-
-                photo.setAttribute('src', "images/" + towns[i].photo);
-                photo.setAttribute('alt', towns.name);
-                townpage.appendChild(photo);
 
                 year.textContent = 'Founded in ' + towns[i].yearFounded;
                 townpage.appendChild(year);

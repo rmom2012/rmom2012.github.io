@@ -268,7 +268,7 @@ footer p {
 
 .article {
     display: block;
-
+    
 }
 
 .articleImg {
@@ -281,7 +281,8 @@ footer p {
 
 
 .articleText {
-    text-align: center;
+    text-align: left;
+    line-height: 1.5rem;
     font-family: 'Lora', serif;
     color: #4a4a4a;
     padding: 10px;
@@ -527,3 +528,32 @@ form label.top input:required:valid {
     margin: 0px 0px 0px 20px;
     font-size: 1.2rem;
 }
+/*--------------------Preston Activities-----------------------*/
+.activities{
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .activity h1 {
+    color: #c19434;
+  }
+  .activity h3 {
+    color: #34421f;
+    text-align: center;
+    border-bottom: 1px solid rgb(18, 41, 28);
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 1.75rem;
+  }
+   .activities h4{
+       color: #34421f;
+   }
+
+  #actPic {
+    position: relative;
+    width: 90%;
+    margin-top: -80px;
+   }

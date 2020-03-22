@@ -73,11 +73,11 @@ nav {
     color: #c19434;
     font-weight: 700;
     transition: 0.7s;
-    text-decoration: none;
+    text-decoration: overline;
 }
 
 nav ul li .active {
-    color: #f1f1ef;
+    color: #c19434;
     text-decoration: overline;
 }
 
@@ -87,6 +87,14 @@ nav ul li .active {
 
 a {
     color: #f1f1ef;
+
+}
+
+main
+ {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f1f1ef;
 
 }
 
@@ -114,7 +122,7 @@ h2 {
 
 
 footer {
-    background: #879a63;
+    background: #34421f;
 }
 
 footer h1 {
@@ -168,36 +176,71 @@ footer p {
     padding: 10px;
 }
 
+#town {
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #34421f;
+    padding: 20px;
+  }
+  
 
 
 /*styles for weather summary and hero image*/
 
-.heroImg {
-    margin: 10px auto;
-    width: 100%;
-    height: auto;
-
-}
-
-.hero {
-    margin: 10px auto;
+.hero{
     position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.wsummary {
-    position: absolute;
-    top: 1.5rem;
-    left: 20px;
-    font-family: 'Lora', serif;
-    color: #4a4a4a;
+  }
+  
+  .overlay {
+    width: 160px;
+    height: 140px;
     background-color: #f1f1ef;
+    color: #34421f;
     opacity: 0.80;
-    border: 5px #4a4a4a;
-    padding: .5rem;
-    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.59);
-}
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.59);
+  }
+  
+  .overlay h2 {
+    font-family: 'Lora', serif;
+    font-size: 60%;
+    color: #34421f;
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .overlay li {
+    font-size: 50%;
+    line-height: 1.5em;
+    font-family: 'Lora', serif;
+  }
+  
+  
+  .townPic {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #summary {
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+    margin: 0px;
+  }
+  
+  hr {
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+  }
+  
+  .hero h3 {
+    padding: 10px;
+    margin: 0px;
+  }
+  
 
 /*styles for banner*/
 
@@ -212,7 +255,7 @@ footer p {
 
 /*5 day forecast*/
 
-.fiveDay {
+.forecast {
     display: none;
 }
 
@@ -225,7 +268,7 @@ footer p {
 
 .article {
     display: block;
-
+    
 }
 
 .articleImg {
@@ -238,7 +281,8 @@ footer p {
 
 
 .articleText {
-    text-align: center;
+    text-align: left;
+    line-height: 1.5rem;
     font-family: 'Lora', serif;
     color: #4a4a4a;
     padding: 10px;
@@ -250,12 +294,9 @@ footer p {
 
 
 
-.contact img {
-    width: 30px;
-    margin-bottom: -3px;
-    margin-right: 10px;
+.contactinfo {
     font-family: 'Lora', serif;
-    color: #34421f;
+    color: #4a4a4a;
 }
 
 #map {
@@ -415,6 +456,21 @@ form label.top input:required:valid {
     margin-top: -30px;
 }
 
+.homePage h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+    font-size: 4rem;
+    padding-left: 10%;
+}
+
+.homePage h3 {
+    font-family: 'Lora', serif;
+    color: #4a4a4a;
+    font-size: 1rem;
+    padding-left: 10%;
+    margin: -50px 0px 0px 0px;
+}
+
 
 .visit {
     margin: 20px 0px 0px 0px;
@@ -425,42 +481,79 @@ form label.top input:required:valid {
     color: #34421f;
 }
 
-.towns section {
-  justify-content: space-evenly;
-  margin-top: -20px;
+.visit img {
+    display: block;
+    float: left;
+    width: 40%;
+
 }
-.towns section h1 {
-  font-family: 'Montserrat', sans-serif;
-  margin: -70px 0px 20px 10px;
-  font-size: 3rem;
+
+.towns {
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .towns section h2 {
-    color: white;
-    font-weight: 800;
-    margin-top: -70px;
+    font-family: 'Montserrat', sans-serif;
+    color: #34421f;
+    margin: 20px 0px 10px 10px;
+    font-size: 2rem;
 }
+
 .towns section {
-  margin: 20px;
-  background-color: white;
-  box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
-  padding-bottom: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 7px 4px rgba(0, 0, 0, 0.4);
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
-.towns img {
-  width: 100%;
+
+.towns section img {
+    width: 100%;
 }
-.towns h3 {
-  font-family: 'Lora', serif;
-  font-size: 1.2rem;
-  font-style: italic;
-  color: #879a63;
-  text-align: center;
-  margin: 40px 0px 10px 20px;
+
+.towns section h3 {
+    font-family: 'Lora', serif;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px 10px 20px;
 }
-.towns h4 {
-  font-family: 'Lora', serif;
-  margin: 5px 0px 0px 20px;
-  color:#4a4a4a;
-  text-align: center;
-  font-size: 1rem;
+
+.towns section h4 {
+    font-family: 'Lora', serif;
+    color: #879a63;
+    margin: 0px 0px 0px 20px;
+    font-size: 1.2rem;
 }
+/*--------------------Preston Activities-----------------------*/
+.activities{
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .activity h1 {
+    color: #c19434;
+  }
+  .activity h3 {
+    color: #34421f;
+    text-align: center;
+    border-bottom: 1px solid rgb(18, 41, 28);
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 1.75rem;
+  }
+   .activities h4{
+       color: #34421f;
+   }
+
+  #actPic {
+    position: relative;
+    width: 90%;
+    margin-top: -80px;
+   }
