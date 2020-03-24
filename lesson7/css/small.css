@@ -101,16 +101,7 @@ h2 {
     text-align: center;
 }
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 2px outset #879a63;
-    padding: 15px;
-    background-color: #f1f1ef;
-    color: #4a4a4a;
-    font-family: 'Lora', serif;
-    font-weight: 800;
-}
+
 
 
 footer {

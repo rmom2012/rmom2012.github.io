@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simply Weather~Soda Springs Town Page</title>
+    <meta name="description" content="This is the Soda Springs, Idaho town page with weather future weather forecasts">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <header>
+        <picture>
+            <img src="images/smallLogo.png" alt="The Simply Weather Logo">
+        </picture>
+        <section class="headings">
+            <h1>Simply Weather</h1>
+            <div class="motto">Where the weather is simply fantastic!</div>
+        </section>
+
+    </header>
+
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="simplyWeather.html"> Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodaSprings.html=active">Soda Springs</a></li>
+            <li><a href="fishHaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="town">Soda Springs, Idaho</h2>
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 300px)" srcset="images/sodaSpringsSmall.jpg">
+                <source media="(max-width: 500px)" srcset="images/sodaSpringsMedium.jpg">
+                <source media="(max-width: 800px)" srcset="images/sodaSpringsLarge.jpg">
+                <img class="townPic" src="images/sodaSpringsHero.jpg"alt="image of a river">
+            </picture>
+        </div>
+        <section class="overlay">
+            <h2>Weather Summary</h2>
+            <hr>
+            <ul id="summary">
+                <li>Description: <span id="description"></span></li>
+                <li>Currently: <span id="currentTemp"></span></li>
+                <li>High: <span id="high"></span></li>
+                <li>Wind Chill: <span id="windChill"></span>N/A</li>
+                <li>Humidity: <span id="humidity"></li>
+                <li>Wind Speed: <span id="windSpeed"></span></li>
+            </ul>
+        </section>
+        </div>
+        <div class="fullWeek">
+            <div class="week">
+                <div class="day">
+                    <span id="day0" class="label"></span>
+                    <img id="icon0" src="" alt="">
+                    <span id="temp0" class="temp"></span>
+                </div>
+                <div class="day">
+                    <span id="day1" class="label"></span>
+                    <img id="icon1" src="" alt="">
+                    <span id="temp1" class="temp"></span>
+                </div>
+                <div class="day">
+                    <span id="day2" class="label"></span>
+                    <img id="icon2" src="" alt="">
+                    <span id="temp2" class="temp"></span>
+                </div>
+                <div class="day">
+                    <span id="day3" class="label"></span>
+                    <img id="icon3" src="" alt="">
+                    <span id="temp3" class="temp"></span>
+                </div>
+                <div class="day">
+                    <span id="day4" class="label"></span>
+                    <img id="icon4" src="" alt="">
+                    <span id="temp4" class="temp"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="activity">
+            <h1>Soda Springs Activities</h1>
+            <h3>Come have some fun with us!</h3>
+            <div class="activities"></div>
+            <img id="actPic" src="images/fun.png" alt="drawing of people having fun">
+        </div>
+        <div class="article">
+            <picture>
+                <img class="articleImg" src="images/sodaSpringsArticle.jpg" alt="bubbling brook">
+            </picture>
+            <section class="articleText">
+                <h2>To The River Otter</h2>
+                <pre>By Samuel Tayler Coleridge</pre>
+                <p>Dear native Brook! wild Streamlet of the West!
+                    How many various-fated years have past,
+                    What happy and what mournful hours, since last
+                    I skimm’d the smooth thin stone along thy breast,
+                    Numbering its light leaps! yet so deep imprest
+                    Sink the sweet scenes of childhood, that mine eyes
+                    I never shut amid the sunny ray …</p>
+
+            </section>
+        </div>
+
+        </div>
+        <h1>Give us a call!</h1>
+        <div class="contact">
+            <section class="contactinfo">
+                <img src="images/001-map-location.png" alt="location icon">
+
+                <p> 30 N 1st E</p>
+                <p>Soda Springs, ID 83263</P>
+
+                <img src="images/phone.png" alt="phone icon">
+                <p>999 999 9999</p>
+                <img src="images/mail.png" alt="mail icon">
+                <p>simplyweather@gmail.com</p>
+            </section>
+            <img id="map" src="images/Soda Springs map.JPG" alt="Map of Soda Springs, Idaho">
+            <section class="social">
+                <a href="http://www.facebook.com"><img src="images/003-facebook.png" alt="facebook icon"></a><a
+                    href="http://www.twitter.com"><img src="images/002-twitter.png" alt="linkedin icon"></a><a
+                    href="http://www.pinterest.com"><img src="images/005-pinterest.png"></a><a
+                    href="http://www.instagram.com"><img src="images/004-instagram.png" alt="instagram icon"></a>
+            </section>
+
+            </section>
+
+
+
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> | Simply Weather | <span id="date"> |</span> |Weather Information by: <a
+                href="https://openweathermap.org/">Open Weather</a></p>
+    </footer>
+
+    <script src="js/hmenu.js"></script>
+    <script src="js/datebanner.js"></script>"
+    <script src="js/weatherSodaSprings.js"></script>
+    <script src="js/sodaSpringsAct.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/lesson5/js/webfontload.js"></script>
+    </footer>
+
+</body>
+
+</html>

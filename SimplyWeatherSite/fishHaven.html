@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simply Weather~Fish Haven Town Page</title>
+    <meta name="description" content="This is the Fish Haven, Idaho town page with weather future weather forecasts">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+   
+
+    <header>
+        <picture>
+            <img src="images/smallLogo.png" alt="The Simply Weather Logo">
+        </picture>
+        <section class="headings">
+            <h1>Simply Weather</h1>
+            <div class="motto">Where the weather is simply fantastic!</div>
+        </section>
+
+    </header>
+
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="simplyWeather.html"> Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodaSprings.html">Soda Springs</a></li>
+            <li><a href="fishHaven.html" class="active">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="town">Fish Haven, Idaho</h2>
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 300px)" srcset="images/fishhavenSmall.jpg">
+                <source media="(max-width: 500px)" srcset="images/fishhavenMedium.jpg">
+                <source media="(max-width: 800px)" srcset="images/fishhavenLarge.jpg">
+                <img class="townPic" src="images/fishhavenHero.jpg" alt="image of men fishing on a cloudy day">
+            </picture>
+        </div>
+        <section class="overlay">
+            <h2>Weather Summary</h2>
+            <hr>
+            <ul id="summary">
+                <li>Description: <span id="description"></span></li>
+                <li>Currently: <span id="currentTemp"></span></li>
+                <li>High: <span id="high"></span></li>
+                <li>Wind Chill: <span id="windChill"></span>N/A</li>
+                <li>Humidity: <span id="humidity"></li>
+                <li>Wind Speed: <span id="windSpeed"></span></li>
+            </ul>
+        </section>
+        </div>
+        <div class="fullWeek">
+            <div class="week">
+                <div class="day">
+                    <span id="day0" class="label"></span>
+                    <img id="icon0" src="" alt="">
+                    <span id="temp0" class="temp"></span>
+                </div>
+                <div class="day">
+                    <span id="day1" class="label"></span>
+                    <img id="icon1" src="" alt="">
+                    <span id="temp1" class="temp"></span>
+                </div>
+                <div class="day">
+                    <span id="day2" class="label"></span>
+                    <img id="icon2" src="" alt="">
+                    <span id="temp2" class="temp"></span>
+                </div>
+                <div class="day">
+                    <span id="day3" class="label"></span>
+                    <img id="icon3" src="" alt="">
+                    <span id="temp3" class="temp"></span>
+                </div>
+                <div class="day">
+                    <span id="day4" class="label"></span>
+                    <img id="icon4" src="" alt="">
+                    <span id="temp4" class="temp"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="activity">
+            <h1>Fish Haven Town Activities</h1>
+            <h3>Come have some fun with us!</h3>
+            <div class="activities"></div>
+            <img id="actPic" src="images/fun.png" alt="drawing of people having fun">
+        </div>
+        <div class="article">
+            <picture>
+                <img class="articleImg" src="images/fishHavenArticle.jpg" alt="person showing fishing hook">
+            </picture>
+            <section class="articleText">
+                <h2>It's Alluring</h2>
+                <pre>By Unknown</pre>
+                <p>One of the most efficient and productive methods of sport angling is to use natural baits, or live bait. Natural baits are effective because of their familiar texture, odor, and color, and require a relatively simple presentation. They are generally most effective when acquired locally, outweighing any hassles involved in obtaining them.
+ 
+                    The common earthworm is a universal bait; almost every fresh water species will hungrily gobble an earthworm. Grubs and maggots are excellent bait along with grasshoppers, crickets, bees, aquatic snails, small frogs, tadpoles, crayfish, and even ants. Many anglers believe that roe—fish eggs--is superior to any other bait. Some of the more popular natural baits include:
+                     
+                    Worms: good bait for nearly all freshwater fish and you can find all you need in a few shovels of dirt from a shaded, damp area.
+                    Minnows: store in a bucket with plenty of cool water to keep them alive. Never crowd them.
+                    Crickets, grasshoppers, beetles: many varieties all make good baits, particularly later in the summer and autumn.
+                    Leeches: excellent bait for many fish when hooked through the sucker in the tail.</p>
+
+            </section>
+        </div>
+
+        </div>
+        <h1>Give us a call!</h1>
+        <div class="contact">
+            <section class="contactinfo">
+                <img src="images/001-map-location.png" alt="location icon">
+
+                <p> 30 N 1st E</p>
+                <p>Fish Haven, ID 83263</P>
+
+                <img src="images/phone.png" alt="phone icon">
+                <p>999 999 9999</p>
+                <img src="images/mail.png" alt="mail icon">
+                <p>simplyweather@gmail.com</p>
+            </section>
+            <img id="map" src="images/Fish Haven Map.JPG" alt="Map">
+            <section class="social">
+                <a href="http://www.facebook.com"><img src="images/003-facebook.png" alt="facebook icon"></a><a
+                    href="http://www.twitter.com"><img src="images/002-twitter.png" alt="linkedin icon"></a><a
+                    href="http://www.pinterest.com"><img src="images/005-pinterest.png"></a><a
+                    href="http://www.instagram.com"><img src="images/004-instagram.png" alt="instagram icon"></a>
+            </section>
+
+           
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> | Simply Weather | <span id="date"> |</span> |Weather Information by: <a
+                href="https://openweathermap.org/">Open Weather</a></p>
+    </footer>
+
+    <script src="js/hmenu.js"></script>
+    <script src="js/datebanner.js"></script>
+    <script src="js/weatherSodaSprings.js"></script>
+    <script src="js/fishHavenAct.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/lesson5/js/webfontload.js"></script>
+    </footer>
+
+</body>
+
+</html>

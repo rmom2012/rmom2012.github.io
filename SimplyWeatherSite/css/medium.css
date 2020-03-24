@@ -1,0 +1,273 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 32.5em) {
+
+    .navigation {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    header img {
+        width: 80%;
+    }
+
+    .headings h1 {
+        font-size: 2rem;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+
+    .overlay {
+        width: 320px;
+        height: 320px;
+        background-color: #f1f1ef;
+        color: #34421f;
+        opacity: 0.80;
+        position: absolute;
+        top: 430px;
+        left: 90px;
+        box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.59);
+      }
+      
+      .overlay h2 {
+        font-family: 'Lora', serif;
+        font-size: xx-large;
+        color: #34421f;
+        text-align: center;
+        margin: 15px;
+      }
+      
+      .overlay li {
+        font-size: 120%;
+        font-family: 'Lora', serif;
+      }
+      
+
+
+
+   
+
+  /*styles for five-day forecast*/
+
+  .fullWeek {
+    display: block;
+    flex-direction: row;
+    max-width: 28rem;
+    margin: 0 auto;
+}
+.week {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgoldenrodyellow;
+}
+.week div img { 
+    padding: .5rem;
+    
+}
+.week div:last-child {
+    border-right: 1px solid #34421f;
+}
+.day {
+    border-top: 1px solid #34421f;
+    border-bottom: 1px solid #34421f;
+    border-left: 1px solid #34421f;
+    flex: 1 1 100%;
+    font-size: .7rem;
+}
+.label {
+    font-family: 'Lora', serif;
+    background-color: #879a63;
+    text-align: center;
+    border-bottom: 1px solid #34421f;
+    color: #f1f1ef;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .3rem;
+}
+.temp {
+    text-align: center;
+    color: #879a63;
+    display: block;
+    padding: .3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/*styles for article*/
+
+.articleImg {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: 40px;
+}
+   
+    /*styles for contact information*/
+
+   
+    div.contact {
+        width: 40%;
+        margin: auto;
+    }
+    #map {
+      display: block;
+      width: 90%;
+      margin: auto;
+      grid-area: 1 / 2 / 3 / 3;
+      box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+
+    }
+    .contact h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #f1f1ef;
+        font-family:'Lora', serif;
+    }
+    .contactinfo img {
+      width: 25px;
+      margin-bottom: -20px;
+    }
+    .social {
+      text-align: center;
+    }
+    .social img {
+        width: 10%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  
+    footer p {
+      color: #f1f1ef;
+      text-align: center;
+      font-family:'Lora', serif;
+      padding: 20px;
+  }
+
+
+    /*styles for gallery page*/
+
+    .wGallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+     /*----------- Form --------------*/
+
+  .stormTitle{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+.form {
+  background-color: #f1f1ef;
+  margin: 1.5rem  auto;
+  padding: .6em;
+  box-shadow: 5px 10px 18px #0a0909;
+  border-radius: 5px 5px 5px 5px;
+  color: #34421f;
+  align-content: center;
+  max-width: 400px;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: solid 2px #879a63;
+  border-radius: 10px;
+  padding: 1rem 2%;
+  max-width: 400px;
+}
+
+
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba (0,0,0,0.1);
+}
+   
+
+   /*styles for home page*/
+
+   .homePage img {
+    position: absolute;
+     width: 35%;
+ }
+ 
+ .towns {
+     margin-top: 50px;
+     padding-bottom: 0px;
+ }
+ .towns section {
+     margin-bottom: 20px;
+     text-align: right;
+ }
+ .towns section img {
+     float: left;
+     width: 60%;
+ }
+
+ .towns section h2 {
+     color: #4a4a4a;
+     text-align: center;
+     margin-top: 40px;
+ }
+ .towns section {
+     margin: 10px 0px 0px -20px;
+     color: rgb(53, 53, 53);
+     font-size: 5rem;
+ }
+ .towns section h3{
+     margin-right: 10px;
+     margin-top: 30px;
+     font-size: 1rem;
+ }
+ .towns section {
+     overflow: auto;
+     padding: 0px;
+ }
+ .towns section:nth-child(2) img {
+     float: right;
+     padding: 0px;
+ }
+ .towns section:nth-child(2) {
+     text-align: left;
+ }
+     /*--------------------Activities-----------------------*/
+
+     .activities h4{
+        color: #34421f;
+    }
+ 
+   #actPic {
+     position: relative;
+     width: 60%;
+     margin-top: -150px;
+     margin-left: 150px;
+     margin-bottom: -100px;
+    }
+
+
+
+}

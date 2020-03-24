@@ -90,8 +90,6 @@ a {
 
 }
 
-
-
 h1,
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -101,21 +99,6 @@ h2 {
     text-align: center;
 }
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 2px outset #879a63;
-    padding: 15px;
-    background-color: #f1f1ef;
-    color: #4a4a4a;
-    font-family: 'Lora', serif;
-    font-weight: 800;
-}
-
-
-footer {
-    background: #879a63;
-}
 
 footer h1 {
     text-align: center;
@@ -161,14 +144,11 @@ footer h1 {
     margin-bottom: 20px;
 }
 
-footer p {
-    color: #f1f1ef;
-    text-align: center;
-    font-family: 'Lora', serif;
-    padding: 10px;
+.landingPage{
+    background-color: #879a63;
 }
 
-
+ 
 
 /*styles for weather summary and hero image*/
 
