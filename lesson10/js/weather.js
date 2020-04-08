@@ -10,7 +10,6 @@ fetch(weatherURL)
         document.getElementById('high').textContent = jsonObject.main.temp_max + "°F";
         document.getElementById('humidity').textContent = jsonObject.main.humidity + '%';
         document.getElementById('windSpeed').textContent = jsonObject.wind.speed + 'mph';
-        document.getElementById('windChill').textContent = windChill(jsonObject.main.temp, jsonObject.wind.speed);
     });
 
    

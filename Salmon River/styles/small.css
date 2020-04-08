@@ -1,102 +1,291 @@
-body
-{
-background: #ffffff;
-background-image: url('/Salmon\ River/images/background.png');
-background-repeat:repeat;
-font-family:'Noto Sans', sans-serif;
-color: #222629;}
+body {
+  background: #ffffff;
+  background-image: url('/Salmon\ River/images/background.png');
+  background-repeat: repeat;
+  font-family: 'Noto Sans', sans-serif;
+  color: #222629;
+}
 
 header {
-    background-image: url("/Salmon\ River/images/heroHome.jpg");
-    background-repeat: no-repeat;
-  }
+  background-image: url("/Salmon\ River/images/heroHome.jpg");
+  background-repeat: no-repeat;
+}
 
-   /*--------------NAVIGATION-------------*/
-   .navigation {
-    list-style: none;
-    margin: 0px 0px 0px 20px;
-    padding: 0;
-    overflow: hidden;
-  }
-  .navigation li:first-child {
-    padding-top: 0.4rem;
-    border: none;
-    font-family:  'Noto Sans', sans-serif;
-    display: block;
-    font-size: 1.5rem;
-  }
-  .navigation li {
-    display: none;
-    font-family:  'Noto Sans', sans-serif;
-    font-size: 1.5rem;
-  }
-  .navigation a {
-    text-align: left;
-    text-decoration: none;
-    color: #222629;
-    display: block;
-    padding: 0.25rem;
-    margin: 10px;
-  }
-  .responsive li {
-    display: block;
-  }
-  .navigation li a:hover {
-    color: #86c232;
-    transition: 0.4s;
-  }
-  #logo {
-    display: none;
-  }
-  #active {
-    font-weight: bolder;
-    text-decoration: underline;
-  }
+/*--------------NAVIGATION-------------*/
+.navigation {
+  list-style: none;
+  margin: 0px 0px 0px 20px;
+  padding: 0;
+  overflow: hidden;
+}
 
-  /*------------------Home page LANDING PAGE---------------*/
-  .overlay {
-    color: #ffffff;
-    width: 100%;
-    height: 250px;
-    text-align: center;
-  }
+.navigation li:first-child {
+  padding-top: 0.4rem;
+  border: none;
+  font-family: 'Noto Sans', sans-serif;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.navigation li {
+  display: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+.navigation a {
+  text-align: left;
+  text-decoration: none;
+  color: #222629;
+  display: block;
+  padding: 0.25rem;
+  margin: 10px;
+}
+
+.responsive li {
+  display: block;
+}
+
+.navigation li a:hover {
+  color: #86c232;
+  transition: 0.4s;
+}
+
+/*------------------Home page---------------*/
+.overlay {
+  color: #ffffff;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.overlay h2 {
+  font-family: "Rock Salt", "cursive";
+  font-size: 6.5vw;
+  margin: 25px;
+}
+
+.overlay h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
+  font-size: 3vw;
+  margin: -20px;
+}
+
+#homelogo img {
+  width: 100%;
+  margin: -150px;
+  padding: 0px;
+}
+
+.welcome-wrap {
+  margin-top: 25px;
+}
+
+#welcome-image {
+  display: none;
+}
+
+.text-wrap h2 {
+  text-align: center;
+}
+
+
+.hero-image img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #222629;
+  border: none;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+ margin-top: -300px;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #86c232;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #222629;
+}
+
+.parallax button {
+  font-size: 1.5rem;
+  position: absolute;
+  margin: 100px;
+}
+
+.parallax-div-wrap {
+  max-width: 800px;
+  background-color:#222629;
+  max-height: 250px;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+p {
+  margin: 20px;
+  line-height: 2rem;
+}
+
+.quote {
+  padding: 10px 3rem 5px 3rem;
+}
+
+.parallax-quote, .quote {
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  background-color: #222629;
+  font-size: .75rem;
+  font-style: italic;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+
+.testimonials {
+  font-size: 0.9rem;
+  display: grid;
+  grid-template-areas:
+     "div div"
+     "div div";
+  grid-gap: 20px 50px;
+  margin: 20px;
+}
+
+.testimonials img {
+  display: none;
+}
+
+.testimonials-wrap h2{
+  text-align: center;
+}
+
+.testimonials p {
+  margin: 0px;
+  text-align: center;
+}
+
+.comment-wrap {
+  text-align: right;
+}
+
+.third-comment {
+  display: none;
+}
+
+.name-wrap {
+  color: #222629;
+  font-size: 0.8em;
+}
+
+#summary {
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  list-style: none;
+  text-align: left;
+  margin: 0px 0px 10px 0px;
+}
+
+#summary img{
+  width: 50%;
+  align-content: center;
+  margin-top: -50px;
+  margin-bottom: -30px;
+}
+
+ h5{
+  font-size: 1em;
+  text-align: center;
+}
+
+
+
+
+/*-----------FOOTER------------*/
+
+footer {
+  background: #474b4f;
+}
+
+.aboutUs {
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 5px;
+}
+
+footer h2, 
+h3,
+h4 {
+  text-align: center;
+  color: #86c232;
+  font-family: 'Noto Sans', sans-serif;
   
-  .overlay h2 {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 8vw;
-    margin: 0px;
-  }
-  
-  .overlay h3 {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 3vw;
-    margin: 0px;
-  }
-  #homelogo img {
-    width: 20%;
-    margin: 0px;
-    padding: 0px;
-  }
-  #townbutton {
-    display: none;
-  }
+}
 
-    footer
-    {padding-bottom:70px;
-    height: auto;}
-    
-    footer .wrapper
-    {width: 350px;
-    margin: 0 auto;}
-    
-    footer .wrapper .column
-    {margin-top:30px;
-    float:none;
-    font-size: 14px;
-    width: auto;}
-    
-    footer .wrapper .social{
-    width: 5%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: .75em;
+  margin: 0px;
+}
+
+.contactinfo {
+  margin: auto;
+}
+
+.contactinfo img {
+  width: 15%;
+}
+
+.social img {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.copyright {
+  background: #222629;
+  padding: 20px;
+  height: 40px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+
+}
+
+
+.copyright a {
+  color: #61892f;
+  transition: opacity .25s ease;
+  opacity: 0.7;
+  margin-left: 12px;
+}
+
+
+.copyright a:hover {
+  opacity: 0.9;
+}
+
+/*-----------Guides------------*/
