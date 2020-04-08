@@ -1,0 +1,102 @@
+body
+{
+background: #ffffff;
+background-image: url('/Salmon\ River/images/background.png');
+background-repeat:repeat;
+font-family:'Noto Sans', sans-serif;
+color: #222629;}
+
+header {
+    background-image: url("/Salmon\ River/images/heroHome.jpg");
+    background-repeat: no-repeat;
+  }
+
+   /*--------------NAVIGATION-------------*/
+   .navigation {
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .navigation li:first-child {
+    padding-top: 0.4rem;
+    border: none;
+    font-family:  'Noto Sans', sans-serif;
+    display: block;
+    font-size: 1.5rem;
+  }
+  .navigation li {
+    display: none;
+    font-family:  'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+  .navigation a {
+    text-align: left;
+    text-decoration: none;
+    color: #222629;
+    display: block;
+    padding: 0.25rem;
+    margin: 10px;
+  }
+  .responsive li {
+    display: block;
+  }
+  .navigation li a:hover {
+    color: #86c232;
+    transition: 0.4s;
+  }
+  #logo {
+    display: none;
+  }
+  #active {
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+  /*------------------Home page LANDING PAGE---------------*/
+  .overlay {
+    color: #ffffff;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+  
+  .overlay h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 8vw;
+    margin: 0px;
+  }
+  
+  .overlay h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3vw;
+    margin: 0px;
+  }
+  #homelogo img {
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+  }
+  #townbutton {
+    display: none;
+  }
+
+    footer
+    {padding-bottom:70px;
+    height: auto;}
+    
+    footer .wrapper
+    {width: 350px;
+    margin: 0 auto;}
+    
+    footer .wrapper .column
+    {margin-top:30px;
+    float:none;
+    font-size: 14px;
+    width: auto;}
+    
+    footer .wrapper .social{
+    width: 5%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;}

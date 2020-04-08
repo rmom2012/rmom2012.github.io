@@ -1,0 +1,137 @@
+@media only screen and (min-width: 32.5em)
+{}
+.navigation li:first-child {
+    display: none;
+  }
+  .navigation {
+    display: flex;
+    margin: 0px;
+    padding: 40px;
+    overflow: hidden;
+    justify-content: left;
+  }
+  .navigation li {
+    display: block;
+    white-space: nowrap;
+    margin-top: 65px;
+  }
+  #active {
+    color: #ffffff;
+    background-color: #86c232;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+  }
+  #active:before,
+  #sLogo:before {
+    content: "";
+    height: 0px;
+    visibility: hidden;
+  }
+  #sLogo {
+    margin: -280px 0px 0px -550px;
+    padding: 10px;
+    width: 20px;
+  }
+  #logo {
+    display: block;
+  }
+  /*-------------NAV ANIMATION ----------*/
+  .navigation li:first-child {
+    display: none;
+  }
+  .navigation li a {
+    position: relative;
+    color: #474b4f;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .navigation li a:hover {
+    color: #86c232;
+  }
+  .navigation li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #86c232;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .navigation li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  /*------------------Home page LANDING PAGE---------------*/
+.overlay {
+  color: #ffffff;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  padding-top: -200px;
+  padding-bottom: 10px;
+}
+
+.overlay h2 {
+  font-family:'Rock Salt', cursive;
+  font-size: 5vw;
+  margin: -130px 0px 0px 0px;
+}
+
+.overlay h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2vw;
+  color: #ffffff;
+  font-style: italic;
+  margin: 15px 0px 0px 0px;
+}
+#townbutton{
+  display: block;
+  border-radius: 40px;
+  font-size: 2vw;
+}
+#homelogo {
+  display: none;
+}
+.overlay a {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2vw;
+  font-weight: bolder;
+  background-color: #474b4f;
+  width: 150px;
+  padding: 10px;
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+}
+.overlay a:hover {
+  background-color: #86c232;
+  color: #222629;
+  font-weight: bolder;
+}
+.overlay ul {
+  list-style: none;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer .wrapper .column 
+{
+font-size: 12px;
+}
+
+img .social{
+  width: 10%;
+padding: 10px;
+margin-top: 20px;
+ margin-bottom: 20px;
+}
