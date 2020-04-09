@@ -12,10 +12,10 @@ fetch(requestURL)
       let card = document.createElement ('section');
       let name = document.createElement ('h2');
       let imageurl = document.createElement ('img');
-      let certification = document.createElement ('p');
-      let experience = document.createElement ('p');
-      let email = document.createElement ('p');
-      let bio = document.createElement ('p');
+      let certification = document.createElement ('h4');
+      let experience = document.createElement ('h4');
+      let email = document.createElement ('h4');
+      let bio = document.createElement ('h4');
       
 
 name.textContent = guides[i].name + '' + guides[i].lastname;

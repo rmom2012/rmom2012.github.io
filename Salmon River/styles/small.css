@@ -152,16 +152,6 @@ h1 {
 }
 
 
-.testimonials {
-  font-size: 0.9rem;
-  display: grid;
-  grid-template-areas:
-     "div div"
-     "div div";
-  grid-gap: 20px 50px;
-  margin: 20px;
-}
-
 .testimonials img {
   display: none;
 }
@@ -215,6 +205,8 @@ h1 {
 
 footer {
   background: #474b4f;
+  max-width: 900px;
+  padding: 5px;
 }
 
 .aboutUs {
@@ -268,8 +260,9 @@ footer p {
 
 .copyright {
   background: #222629;
-  padding: 20px;
-  height: 40px;
+  padding: 15px;
+  height: 80px;
+  max-width: 100%;
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
 
@@ -291,43 +284,83 @@ footer p {
 /*-----------Guides------------*/
 
 
-
-picture img{
-  display: grid;
-  grid-template-columns: 1fr;
-  max-width: 10%;
-  border-radius: 50%;
-  margin-bottom: 5px;
-  margin-left: 5px;
-}
-
 .cards {
-  display: grid;
-  grid-template-columns: 1fr;
+  background-color: #222629;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
 }
-
-.cards section{
-  background-color: #474b4f;
-  border-style: groove;
-  border-color: #ffffff;
+.cards h2 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #474b4f;
+  text-align: center;
+  margin: 20px 0px 20px 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.cards section {
+  margin: 20px 20px 40px 20px;
+  background-color: #ffffff;
   margin: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+}
+.cards section img{
+  display: none;
+}
+/*.cards section img {
+  width: 100%;
+  margin: 0px;
+}*/
+.cards section h4 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #222629;
+  line-height: 1.5em;
+  font-size: .75rem;
+  text-align: left;
+  padding: 10px;
+  margin: 0px 0px 10px 20px;
 }
 
+/*-----------Tours------------*/
 
-.cards section p{
-  font-family: 'Noto Sans', sans-serif;
-  color: #ffffff;
+.tours{
+  display: block;
+  align-content: center;
 }
 
-.cards section h2{
+.tours h1{
+  text-align: center;
   font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  padding: 3px;
+}
+
+#t1{
+  align-content: center;
+}
+
+ul li{
+  font-family: 'Noto Sans', sans-serif;
+  list-style: none;
+}
+
+#ti{
+  font-style: italic;
+  font-weight: bolder;
   color: #86c232;
   text-align: center;
 }
 
-.cards section img{
-  display: none;
+picture.tpic1 img{
+  max-width: 90%;
+  margin-left: 20px;
+  box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
 }
+
+ 
+
 
 
 
