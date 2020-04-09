@@ -1,20 +1,20 @@
 {
     "guides": [
       {
-        "name": "Jenny",
+        "name": "Cary",
         "lastname": "Maulliski",
         "imageurl": "https://github.com/Rmom2012/rmom2012.github.io/blob/master/Salmon%20River/images/cary.jpg",
         "certification": "Class 4-5 guide",
-        "experience": "16 years of river guide experience",
-        "email": "salmonjenny@gmail.com",
-        "bio": "Jessica has been with Salmon River Adventures since 2007 and spends many of her days at work on the Middle Fork American River. In the winter season, she is a Ski Coach at Sierra at Tahoe. She also attends Grad school working on her Masters in Kinesiology with an emphasis in Adapted Physical Education. Out of all the rivers that she has run, her favorite is the overnight trips on the North Fork of the Yuba. Her all time favorite river … it’s a tie between the Middle Fork of the Salmon in Idaho and the Colorado River through the Grand Canyon."
+        "experience": "16 years",
+        "email": "salmoncary@gmail.com",
+        "bio": "Cary has been with Salmon River Adventures since 2007 and spends many of her days at work on the Middle Fork American River. In the winter season, she is a Ski Coach at Sierra at Tahoe. She also attends Grad school working on her Masters in Kinesiology with an emphasis in Adapted Physical Education. Out of all the rivers that she has run, her favorite is the overnight trips on the North Fork of the Yuba. Her all time favorite river … it’s a tie between the Middle Fork of the Salmon in Idaho and the Colorado River through the Grand Canyon."
       },
       {
       "name": "Zach",
       "lastname": "Buckley",
       "imageurl": "https://github.com/Rmom2012/rmom2012.github.io/blob/master/Salmon%20River/images/samGuide.jpg.jpg",
       "certification": "Class 3 guide",
-      "experience": "5 years of river guide experience",
+      "experience": "5 years",
       "email": "salmonzach@gmail.com",
       "bio": "Guiding with Salmon River Adventures since 2006 went thru Salmon guide school in 2004. Zach went on his first rafting trip when he was less than a year old on the Rogue River, but no big deal as he was on the Class 4+ Upper Klamath 3 months before being born. He enjoys adventure and travel and has rafted in Alaska, on the Grand Canyon and in many other states."
     },
@@ -23,7 +23,7 @@
         "lastname": "Waterson",
         "imageurl": "https://github.com/Rmom2012/rmom2012.github.io/blob/master/Salmon%20River/images/samGuide.jpg",
         "certification": "Class 5 guide",
-        "experience": "20 years of river guide experience",
+        "experience": "20 years",
         "email": "salmonssam@gmail.com",
         "bio": "Sam Waterson grew up in the small town Nevada City close to the Yuba River swimming during summer low flows. Jeff also grew up rafting on the South Fork American river, and since 1989 has been out there at least 2 times a summer. In 1997 he guided his first raft down the Gorge section on the South Fork. In 1996 he signed up for guide school and have been working as a commercial guide for Salmon River Adventures ever since. Sam loves the scenery he gets to see every day, and loves sharing his passion of the outdoors with those who are also interested in mother nature, and all that she offers."
       }
