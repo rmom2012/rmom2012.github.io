@@ -49,6 +49,19 @@ section {
     width: 100%;
 }
 
+/*-------GUIDES----------------*/
+
+
+picture img{
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 40%;
+}
+
+
+.cards {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 }
 
 

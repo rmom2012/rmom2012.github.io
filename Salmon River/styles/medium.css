@@ -158,6 +158,21 @@ footer h2, h4 {
   margin: 20px;
 }
 
+/*-------GUIDES----------------*/
+
+
+picture img{
+  max-width: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+}
+
+.cards {
+  grid-template-columns: 1fr ;
+}
+
+
 
 
 }

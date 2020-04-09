@@ -289,3 +289,45 @@ footer p {
 }
 
 /*-----------Guides------------*/
+
+
+
+picture img{
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 10%;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cards section{
+  background-color: #474b4f;
+  border-style: groove;
+  border-color: #ffffff;
+  margin: 20px;
+}
+
+
+.cards section p{
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+}
+
+.cards section h2{
+  font-family: 'Noto Sans', sans-serif;
+  color: #86c232;
+  text-align: center;
+}
+
+.cards section img{
+  display: none;
+}
+
+
+
