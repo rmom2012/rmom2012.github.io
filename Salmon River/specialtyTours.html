@@ -32,7 +32,8 @@
         <section class="overlay">
             <h1><a id="homelogo" href="salmonRiver.html"><img src="images/mLogo.png"
                         alt="salmon river adventures logo" /></a></h1>
-            <h2>Specialty Tours</h2>
+            <h2>Salmon River Adventures</h2>
+            <h3>Specialty Tours</h3>
            
         </section>
 
@@ -40,12 +41,14 @@
 
     <main>
         <section class="tours">
-            <h1>Our Most Popular River Trip Options</h1>
+            <h1>Our Most Popular River Tours</h1>
             <div id="t1">
-                <picture class="tpic1">
-                    <img src="images/tpic2.jpg" alt="Couple rafting with thier dog."/>
-                </picture>
-                <h3 id="tourHeading">The Best Class 3 Rafting Trip</h3>
+                <h2 id="tourHeading">The Best Class 3 Rafting Trip</h2>
+                <figure>
+                    <img src="https://via.placeholder.com/400x300.png?text=salmon+river+adventures.png"
+                    data-src="images/tpic2.jpg" alt="Couple rafting with thier dog."/>
+                    <figcaption>Fun for the whole family!</figcaption>
+                </figure>
                 <ul>
                     <li>Difficulty: Beginner to Intermediate</li>
                     <li>Rating: Class 2-3+</li>
@@ -58,11 +61,14 @@
 
             </div>
 
+
             <div id="t1">
-                <picture class="tpic1">
-                    <img src="images/tpic3.jpg" alt="Families rafting together."/>
-                </picture>
-                <h3 id="tourHeading">Combo Overnight 2 day raft trip</h3>
+                <h2 id="tourHeading">Combo Overnight 2 Day Rafting Trip</h2>
+                <figure>
+                    <img src="https://via.placeholder.com/400x300.png?text=salmon+river+adventures.png"
+                    data-src="images/tpic3.jpg" alt="Families rafting together."/>
+                    <figcaption>Create lasting memories.</figcaption>
+                </figure>
                 <ul>
                     <li>Difficulty: Beginner</li>
                     <li>Rating: Class 2-2+</li>
@@ -72,16 +78,18 @@
                 </ul>
                 <p id="ti">3 meals and 1 night camping included. Inflatable Kayaks available day 1.</p>
 
-                <p>Gorge 2 day overnight combo trip is a great first time trip for younger children.</p>
+                <p>Gorge 2 day overnight combo trip is a great first time trip for younger children.Bring the whole family and enjoy the beauty of the outdoors in a safe, fun environment.</p>
 
             </div>
 
             <div id="t1">
-                <picture class="tpic1">
-                    <img src="images/tpic1.jpg" alt="A man whitewater rafting"/>
-                </picture>
-                <h3 id="tourHeading">"Whole River" 30 Mile 2 day Rafting Trip</h3>
-                <ul>
+                <h2 id="tourHeading">"Whole River" 30 Mile 2 day Rafting Trip</h2>
+                <figure>
+                    <img src="https://via.placeholder.com/400x300.png?text=salmon+river+adventures.png"
+                    data-src="images/tpic1.jpg" alt="A man whitewater rafting"/>
+                    <figcaption>Whitewater is our thing.</figcaption>
+                </figure>
+                <ul >
                     <li>Difficulty: Beginning to Intermediate</li>
                     <li>Rating: Class 2-4+</li>
                     <li>Minimum Age: 12-13 years</li>
@@ -99,8 +107,9 @@
 
     </main>
     <footer>
+       
         <h2 class="fheader">Get in touch</h2>
-        <div class="contact">
+        <div class="contact-info">
             <section class="aboutUs">
 
                 <h4>About Us</h4>
@@ -124,8 +133,18 @@
                     <a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter icon"></a><a
                         href="http://www.pinterest.com"><img src="images/pin.png" alt="pinterest icon"></a><a
                         href="http://www.instagram.com"><img src="images/Insta.png" alt="instagram icon"></a>
-                   
-                    </section>
+                    <section class="weather">
+                            <ul>
+                                <h5>It's rafting season in Riggins, ID.</h5>
+                                <a href="salmonRiver.html"><img src="images/rafting.png" alt="rafting icon"></a>
+                                <li>Description: <span id="description"></span></li>
+                                <li>Currently: <span id="currentTemp"></span></li>
+                                <li>High: <span id="high"></span></li>
+                                <li>Humidity: <span id="humidity"></li>
+                                <li>Wind Speed: <span id="windSpeed"></span></li>
+                            </ul>
+                        </div>
+                    
             </section>
         </div>
         <div>
@@ -134,8 +153,8 @@
                     Reserved</p>
             </section>
         </div>
-
         <script src="scripts/index.js"></script>
+        <script src="scripts/adventure.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="scripts/webfontload.js"></script>
     </footer>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Salmon River Adventures~Reservations Page</title>
+    <meta name="description"
+        content="This is the reservations page for Salmon River Adventures that specialize in outfitting whitewater rafting vacations">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="/normalize.css">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+</head>
+
+<body id="reservations">
+
+
+    <header>
+        <nav>
+            <ul class="navigation responsive">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="meetGuides.html">Meet Our Guides</a></li>
+                <li><a href="specialtyTours.html">Specialty Tours</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="reservations.html" id="active">Reservations</a></li>
+            </ul>
+        </nav>
+        <section class="overlay">
+            <h1><a id="homelogo" href="salmonRiver.html"><img src="images/mLogo.png"
+                        alt="salmon river adventures logo" /></a></h1>
+            <h2>Salmon River Adventures</h2>
+            <h3>Make a Reservation</h3>
+        </section>
+
+    </header>
+
+    <main>
+
+
+        <div class="contact-title">
+            <h1>Tours</h1>
+            <h3>All Inclusive Vacation Details</h3>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">THE BEST CLASS 3 RAFTING TRIP</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th>Difficulty</th>
+                    <th>Length</th>
+                    <th>Price</th>
+
+                </tr>
+                <tr>
+                    <td>Beginner to Intermediate</td>
+                    <td>11 miles</td>
+                    <td>$99 to $129</td>
+                </tr>
+                <thead>
+                    <tr>
+                        <th colspan="3">COMBO OVERNIGHT 2 DAY RAFTING TRIP</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th>Difficulty</th>
+                    <th>Length</th>
+                    <th>Price</th>
+
+                </tr>
+                <tr>
+                    <td>Beginner</td>
+                    <td>20 miles</td>
+                    <td>$134 to $299</td>
+                </tr>
+                <thead>
+                    <tr>
+                        <th colspan="3">"WHOLE RIVER" RAFTING TRIP</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th>Difficulty</th>
+                    <th>Length</th>
+                    <th>Price</th>
+
+                </tr>
+                <tr>
+                    <td>Beginner to Intermediate</td>
+                    <td>30 miles</td>
+                    <td>$299 to $329</td>
+                </tr>
+
+
+                <tfoot>
+                    <td colspan="3">Subject to Change without notice. | &copy; Copyright 2020 Salmon River Adventures
+                    </td>
+                </tfoot>
+
+            </table>
+
+
+        </div>
+        </div>
+
+        <div class="contact-title">
+            <h1>Reservations</h1>
+            <h3>The Adventure Starts Here</h3>
+        </div>
+
+        <section>
+            <form class="res-form">
+                <h3>Reservation Inquiry</h3>
+                <ul class="form-reservation">
+                    <li>
+                        <label class="top" for="name">Full Name*</label>
+                        <input type="text" id="name" minlength="2" maxlength="30" size="20" pattern="[A-Za-z ]{5,}"
+                        required>
+                    </li>
+                    <li>
+                        <label class="top" for="phone" required>Phone*</label>
+                        <input type="tel" id="phone" name="tel" required minlength="10">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="address@domain.com">
+                    </li>
+                    <li>
+                        <label for="vacation">Vacation:</label>
+                        <select id="vacation">
+                            <option selected disabled>Select Adventure...</option>
+                            <option value="theBest">The Best Class 3 Rafting Trip</option>
+                            <option value="combo">Combo Overnight 2 Day Rafting Trip</option>
+                            <option value="whole">Whole River Rafting Trip</option>
+                        </select>
+                    </li>
+                    <li>
+                        <p>Rafting Dates</p>
+                    <li>
+                        <label class="top" for="startDate">From*</label>
+                        <input type="date" id="startDate" name="startDate" required>
+                    </li>
+                    <li>
+                        <label class="top" for="endDate">To*</label>
+                        <input type="date" id="endDate" name="endDate" max="2021-12-31" required>
+                    </li>
+
+                    <li>
+                        <p>Contact Preference (Please check all that apply)</p>
+                        <ul class="form-contact">
+                            <li>
+                                <input type="checkbox" id="email-pref">
+                                <label for="email-pref">Email</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="phone-pref">
+                                <label for="phone-pref">Phone</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="text-pref">
+                                <label for="text-pref">Text</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="submit">Submit</button>
+                    </li>
+                    <li>
+                        <label for="comments">Comments</label>
+                        <textarea name="comments" id="comments" rows="6"
+                            placeholder="Please add additional information here."></textarea>
+                    </li>
+                </ul>
+            </form>
+        </section>
+        </div>
+
+    </main>
+    <footer>
+        <h2 class="fheader">Get in touch</h2>
+        <div class="contact-info">
+            <section class="aboutUs">
+
+                <h4>About Us</h4>
+                <p>Salmon River Adventures has been safely guiding Idaho whitewater rafting since 1978 and offers
+                    something for all levels, from beginner to advanced.We pride ourselves on the excellence of our well
+                    qualified and personable employees that will make any rafting trip with us something to remember.
+                </p>
+            </section>
+            <section class="contactinfo">
+                <h4>Contact Information</h4>
+                <img src="images/address.png" alt="location icon">
+                <p>1000 S. Main Street, Riggins, ID 83549</p>
+                <img src="images/phone.png" alt="phone icon">
+                <p>+1 208 333 444</p>
+                <img src="images/email.png" alt="mail icon">
+                <p>salmonriver@gmail.com</p>
+            </section>
+            <section class="social">
+                <h4>Social Media</h4>
+                <a href="http://www.facebook.com"><img src="images/fb.png" alt="facebook icon"></a><a>
+                    <a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter icon"></a><a
+                        href="http://www.pinterest.com"><img src="images/pin.png" alt="pinterest icon"></a><a
+                        href="http://www.instagram.com"><img src="images/Insta.png" alt="instagram icon"></a>
+                    
+                        <section class="weather">
+
+                            <ul>
+                                <h5>It's rafting season in Riggins, ID.</h5>
+                                <a href="salmonRiver.html"><img src="images/rafting.png" alt="rafting icon"></a>
+                                <li>Description: <span id="description"></span></li>
+                                <li>Currently: <span id="currentTemp"></span></li>
+                                <li>High: <span id="high"></span></li>
+                                <li>Humidity: <span id="humidity"></li>
+                                <li>Wind Speed: <span id="windSpeed"></span></li>
+                            </ul>
+            </section>
+        </div>
+        <div>
+            <section class="copyright">
+                <p>&copy; Copyright 2020 by<a href="http://www.salmonriver.com">Salmon River Adventures</a> All Rights
+                    Reserved</p>
+            </section>
+        </div>
+
+        <script src="scripts/index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="scripts/webfontload.js"></script>
+    </footer>
+
+</body>
+
+</html>

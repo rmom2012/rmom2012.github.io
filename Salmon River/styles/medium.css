@@ -39,7 +39,7 @@
   color: #86c232;
 }
 
-  /*------------------Home page LANDING PAGE---------------*/
+  /*------------------Home page---------------*/
 .overlay {
   color: #ffffff;
   margin: auto;
@@ -49,16 +49,11 @@
 }
 
 .overlay h2 {
-  font-family:'Rock Salt', cursive;
-  font-size: 5vw;
+  font-size: 3em;
   margin: -130px 0px 0px 0px;
 }
 
 .overlay h3 {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 2vw;
-  color: #ffffff;
-  font-style: italic;
   margin: 15px 0px 0px 0px;
 }
 
@@ -109,54 +104,39 @@ section {
 
 
  /*-------FOOTER----------------*/
- div.contact {
-  width: 80%;
-}
-
-.contact h3 {
-  text-align: center;
-  color: #ffffff;
-  font-family: 'Noto Sans', sans-serif;
-}
-
-.contactinfo img {
-  width: 30%;
-}
-.social {
-  text-align: center;
+ .contact-info {
+  width: 95%;
   margin: 20px;
+  padding: 10px;
 }
+
+.aboutUs{
+  font-size: 1.2em;
+}
+
+footer h2{
+  font-size: 2.2em;
+}
+
+footer h4{
+  font-size: 1.5em;
+}
+     
 .social img {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  
+  width: 15%;
 }
 
-.contact p {
-  color: white;
-  text-align: center;
-  font-family:  'Noto Sans', sans-serif;
-  font-size: .75em;
-}
-footer {
-  background: #474b4f;
-  padding-bottom: 20px;
-}
-footer h2, h4 {
-  text-align: center;
-  color: white;
-  font-family:  'Noto Sans', sans-serif;
-  padding: 20px;
-}
-
-.aboutUs p{
-  text-align: left;
-}
-.contact {
+.contact-info {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 60px;
+}
+
+.contactinfo{
+  margin-top: -3px;
+}
+
+.aboutUs{
+  margin-top: -15px;
 }
 
 /*-------GUIDES----------------*/
@@ -191,7 +171,16 @@ footer h2, h4 {
   text-align: left;
 }
 
+ /*-------CONTACT----------------*/
 
+ .form-control{
+  width: 500px;
+  font-size: 20px;
+}
+
+iframe{
+  width: 80%;
+}
 
 
 }
