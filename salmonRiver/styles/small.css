@@ -1,13 +1,13 @@
 body {
   background: #ffffff;
-  background-image: url('/Salmon\ River/images/resBk.png');
+  background-image: url('/salmonRiver/images/resBk.png');
   background-repeat: repeat; 
   font-family: 'Noto Sans', sans-serif;
   color: #222629;
 }
 
 header {
-  background-image: url("/Salmon\ River/images/heroHome.jpg");
+  background-image: url("/salmonRiver/images/heroHome.jpg");
   background-repeat: no-repeat;
 }
 
