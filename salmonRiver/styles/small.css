@@ -1,7 +1,7 @@
 body {
   background: #ffffff;
   background-image: url('/salmonRiver/images/resBk.png');
-  background-repeat: repeat; 
+  background-repeat: repeat;
   font-family: 'Noto Sans', sans-serif;
   color: #222629;
 }
@@ -68,7 +68,7 @@ header {
 .overlay h3 {
   font-family: 'Noto Sans', sans-serif;
   font-style: italic;
-  color:#ffffff;
+  color: #ffffff;
   font-size: 1em;
   margin: -20px;
 }
@@ -93,6 +93,7 @@ header {
 
 
 .hero-image img {
+  position: relative;
   width: 100%;
   margin: 0 auto;
 }
@@ -105,7 +106,7 @@ button {
   width: 200px;
   height: 50px;
   padding: 10px;
- margin-top: -300px;
+  margin-top: -300px;
 }
 
 button:hover {
@@ -115,37 +116,32 @@ button:hover {
   box-shadow: 5px 10px 8px #222629;
 }
 
-.parallax button {
-  font-size: 1.5rem;
-  position: absolute;
-  margin: 100px;
-}
 
-.parallax-div-wrap {
-  max-width: 800px;
-  background-color:#222629;
-  max-height: 250px;
-  padding: 25px;
-  border-radius: 50%;
-}
 
 p {
   margin: 20px;
   line-height: 2rem;
 }
 
-.quote {
-  padding: 10px 3rem 5px 3rem;
-}
 
-.parallax-quote, .quote {
+
+#quote-overlay {
   font-family: 'Noto Sans', sans-serif;
   color: #ffffff;
-  background-color: #222629;
-  font-size: .75rem;
+  font-size: .75em;
   font-style: italic;
   text-align: center;
+  width: 180px;
+  height: 150px;
+  background-color: #86c232;
+  opacity: 0.80;
+  position: absolute;
+  z-index: 10;
+  top: 1050px;
+  left: 50px;
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.59);
 }
+
 
 h1 {
   font-size: 2.5em;
@@ -157,7 +153,7 @@ h1 {
   display: none;
 }
 
-.testimonials-wrap h2{
+.testimonials-wrap h2 {
   text-align: center;
 }
 
@@ -187,14 +183,14 @@ h1 {
   margin: 0px 0px 10px 0px;
 }
 
-#summary img{
+#summary img {
   width: 50%;
   align-content: center;
   margin-top: -50px;
   margin-bottom: -30px;
 }
 
- h5{
+h5 {
   font-size: 1em;
   text-align: center;
 }
@@ -208,7 +204,7 @@ footer {
   background: #474b4f;
 }
 
-  footer h2{
+footer h2 {
   padding-top: 1em;
 }
 
@@ -218,13 +214,13 @@ footer {
   line-height: 2em;
 }
 
-footer h2, 
+footer h2,
 h3,
 h4 {
   text-align: center;
   color: #86c232;
   font-family: 'Noto Sans', sans-serif;
-  
+
 }
 
 .contact-info {
@@ -260,11 +256,11 @@ footer p {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.weather h5{
+.weather h5 {
   color: #ffffff;
 }
 
-.weather ul li{
+.weather ul li {
   color: #ffffff;
   line-height: 1.5em;
 }
@@ -302,6 +298,8 @@ footer p {
   margin: auto;
   padding-bottom: 20px;
 }
+
+
 .cards h2 {
   font-family: 'Noto Sans', sans-serif;
   color: #474b4f;
@@ -310,20 +308,19 @@ footer p {
   padding: 10px;
   font-size: 1.5rem;
 }
+
+.cards section img {
+  display: none;
+}
+
 .cards section {
   margin: 20px 20px 40px 20px;
   background-color: #ffffff;
   margin: 20px;
   padding-bottom: 20px;
-  box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 7px 4px rgba(0, 0, 0, 0.4);
 }
-.cards section img{
-  display: none;
-}
-/*.cards section img {
-  width: 100%;
-  margin: 0px;
-}*/
+
 .cards section h4 {
   font-family: 'Noto Sans', sans-serif;
   color: #222629;
@@ -336,46 +333,46 @@ footer p {
 
 /*-----------Tours------------*/
 
-.tours{
+.tours {
   display: block;
   align-content: center;
 }
 
-.tours h1{
+.tours h1 {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-size: 2rem;
   padding: 3px;
 }
 
-#t1{
+#t1 {
   align-content: center;
 }
 
-ul li{
+ul li {
   font-family: 'Noto Sans', sans-serif;
   list-style: none;
 }
 
-#tourHeading{
-margin-top: 50px;
-color: #222629;
-text-align: center;
+#tourHeading {
+  margin-top: 50px;
+  color: #222629;
+  text-align: center;
 
 }
 
-#ti{
+#ti {
   font-style: italic;
   font-weight: bolder;
   color: #86c232;
   text-align: center;
-  
+
 }
 
-figure img{
+figure img {
   max-width: 90%;
   margin-left: 20px;
-  box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 7px 4px rgba(0, 0, 0, 0.4);
 }
 
 figcaption {
@@ -386,7 +383,7 @@ figcaption {
   color: #474b4f;
 }
 
- #t1 ul li{
+#t1 ul li {
   text-align: center;
   line-height: 1.5em;
 }
@@ -396,7 +393,7 @@ figcaption {
 /*-----------Contact------------*/
 
 
-.contact-form{
+.contact-form {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -404,26 +401,27 @@ figcaption {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.contact-title{
+.contact-title {
   margin-top: 100px;
   text-align: center;
   color: #474b4f;
   text-transform: uppercase;
 }
 
-.contact-title h1{
+.contact-title h1 {
   font-size: 32px;
   line-height: 10px;
 }
 
-.contact-title h2{
-  font-size:16px;
+.contact-title h2 {
+  font-size: 16px;
 }
 
-form{
+form {
   margin-top: 20px;
 }
-.form-control{
+
+.form-control {
   width: 200px;
   background: transparent;
   border: none;
@@ -434,11 +432,11 @@ form{
   margin-bottom: 16px;
 }
 
-input{
+input {
   height: 45px;
 }
 
-form .submit{
+form .submit {
   background: #86c232;
   border-color: transparent;
   color: #fff;
@@ -449,27 +447,27 @@ form .submit{
   margin-top: 20px;
 }
 
-form .submit:hover{
+form .submit:hover {
   background-color: #61892f;
   cursor: pointer;
 }
 
 
-#map-title h1{
+#map-title h1 {
   margin-top: 50px;
   text-align: center;
   text-transform: uppercase;
   font-size: 32px;
 }
 
-iframe{
-  box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+iframe {
+  box-shadow: 0px 2px 7px 4px rgba(0, 0, 0, 0.4);
   width: 60%;
   align-content: center;
   margin-left: 80px;
 }
 
-.contact-main{
+.contact-main {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -477,11 +475,11 @@ iframe{
   font-family: 'Noto Sans', sans-serif;
 }
 
-.contact-main h2{
+.contact-main h2 {
   margin-top: 50px;
 }
 
-.contact-main p{
+.contact-main p {
   line-height: 20px;
   margin-bottom: 20px;
 }
@@ -493,55 +491,55 @@ th,
 tr,
 td,
 tfoot {
-    text-align: center;
-    padding: 5px;
-    font-family: 'Noto Sans', sans-serif;
-    border: .3px solid #222629;
-    border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Noto Sans', sans-serif;
+  border: .3px solid #222629;
+  border-collapse: collapse;
 
 }
 
 table {
-    margin: auto;
-    box-shadow: 5px 5px 5px 5px #777777;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px #777777;
 }
 
 
 thead {
-    color: #474b4f;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: x-large;
-    background-color: #86c232;
-    text-align: center;
+  color: #474b4f;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: x-large;
+  background-color: #86c232;
+  text-align: center;
 }
 
 thead tr th {
-    background-color: #86c232;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: larger;
-    font-weight: bold;
-    color: #474b4f;
-    border: .3px solid #777777;
+  background-color: #86c232;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: #474b4f;
+  border: .3px solid #777777;
 }
 
 th {
-    color: white;
-    background-color: #474b4f;
-    font-size: larger;
-    font-weight: bold;
+  color: white;
+  background-color: #474b4f;
+  font-size: larger;
+  font-weight: bold;
 }
 
 tbody tr {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 tr:nth-child(odd) {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 tfoot tr td {
-    background-color: #86c232;
-    font-size: .70rem;
+  background-color: #86c232;
+  font-size: .70rem;
 }
 
 .form-reservation {
@@ -550,14 +548,15 @@ tfoot tr td {
   padding: 25px;
   border-radius: 8px;
   margin-bottom: 25px;
-  box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 7px 4px rgba(0, 0, 0, 0.4);
 }
 
 .form-reservation button {
   margin-top: 25px;
 }
 
-.form-reservation p, label {
+.form-reservation p,
+label {
   font-weight: bold;
 }
 
@@ -565,20 +564,23 @@ tfoot tr td {
   font-weight: normal;
 }
 
-.form-reservation li, .form-contact {
- display: flex;
- flex-wrap: wrap;
- align-items: center;
+.form-reservation li,
+.form-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.form-reservation > li > label, .form-reservation li p {
- flex: 1 0 120px;
- max-width: 120px;
- margin: 10px;
+.form-reservation>li>label,
+.form-reservation li p {
+  flex: 1 0 120px;
+  max-width: 120px;
+  margin: 10px;
 }
 
-.form-reservation > li > label + *, .form-reservation {
- flex: 1 0 120px;
+.form-reservation>li>label+*,
+.form-reservation {
+  flex: 1 0 120px;
 }
 
 .form-reservation li button {
@@ -594,20 +596,3 @@ tfoot tr td {
 .form-reservation {
   justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
