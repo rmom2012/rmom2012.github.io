@@ -1,4 +1,4 @@
-const requestURL = 'https://rmom2012.github.io/Salmon%20River/riverGuide.json';
+const requestURL = 'https://rmom2012.github.io/salmonRiver/riverGuide.json';
 
 fetch(requestURL)
   .then(function (response) {
